@@ -1,0 +1,103 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1> Scovill Medical Group </h1>
+	<h2> Patient Oncall Serive Form </h2>
+
+	<form action="/scovills" method="POST">
+		<label>
+			First Name:
+			<input type="text" name="f_name" />
+		</label>
+
+</br>
+
+	<label>
+		Last Name:
+		<input type="text" name="l_name" />
+	</label>
+
+</br>
+
+
+
+</br>
+
+<label>
+	Date of Birth:
+	<input type="date" name="DOB" />  
+</label>
+
+</br></br>
+
+Primary Physician: 
+<label> 
+	<select name="p_physician">
+		<option value="Dr.A">Dr.A</option>
+		<option value="Dr.B">Dr.B</option>
+		<option value="Dr.C">Dr.C</option>
+		<option value="Dr.D">Dr.D</option>
+		<option value="Dr.E">Dr.E</option>
+		<option value="Dr.F">Dr.F</option>
+		<option value="Dr.G">Dr.G</option>
+		<option value="Dr.H">Dr.H</option>
+	</select>
+</label>
+
+</br></br>
+
+- Contact info -  
+
+</br>
+
+<label>
+	Phone Number: 
+	<input type="text" name="phone_number"/>
+</label>
+
+<label>
+	Email:
+	<input type="text" name="email" />
+</label>
+
+</br></br>
+
+- Patient Symptoms -
+
+</br></br>
+
+Pain level:
+<label> 
+	<select name="pain_level">
+		<option value="0">0</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+	</select>
+	</br> 0 (No pain) - 10 (Weeping in agony)
+</label>
+
+</br></br>
+
+Patient Message: 
+</br>
+
+<textarea cols="50" rows="5" name="text_box">
+	- Please enter message here -
+</textarea>
+</br>
+
+<button>Create</button>
+</form>
+
+</body>
+</html>

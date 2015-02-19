@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  f_name: MyString
+  l_name: MyString
+  email: MyString
+  dob: 2015-02-18
+  phone_number: MyString
+  text_box: MyString
+  p_physician: MyString
+  pain_level: 1
+  time: 2015-02-18 15:02:40
+
+two:
+  f_name: MyString
+  l_name: MyString
+  email: MyString
+  dob: 2015-02-18
+  phone_number: MyString
+  text_box: MyString
+  p_physician: MyString
+  pain_level: 1
+  time: 2015-02-18 15:02:40

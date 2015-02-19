@@ -1,0 +1,18 @@
+<main>
+<h1> Message Posted By Patients </h1>
+<%= form_tag("/message", method: "post") do %>
+  <%= label_tag(:query, "Physican Name: ") %>
+  <%= text_field_tag(:query) %>
+  <%= submit_tag("Search") %>
+<% end %>
+</main>
+
+<% if @results[0].email %>
+	 <p> <% @results.each do |result| %>
+	  <%= "#{result.f_name} #{result.l_name} | DOB: #{result.dob} | Phone: #{result.phone_number} | Message: #{result.text_box}" %>
+	  </br></br>
+	  <% end %>
+<% end %>
+</p>
+
+
