@@ -82,4 +82,4 @@ production:
   <<: *default
   database: scovill_production
   username: scovill
-  password: <%= ENV['SCOVILL_DATABASE_PASSWORD'] %>
+  password: angelo
